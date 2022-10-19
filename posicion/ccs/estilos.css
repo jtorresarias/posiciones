@@ -1,0 +1,39 @@
+.contenedor{
+    width: 30%;
+    height: 300vh;
+    background-color: aqua;
+    position: relative;
+}
+.caja1{
+    width: 10%;
+    height: 5vh;
+    background-color: blue;
+    position: relative;
+    left: 200px;
+}
+.caja2{
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(255, 0, 13);
+    position: absolute;
+    left: 200px;
+}
+.caja3{
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(22, 236, 118);
+    position: absolute;
+    left: 200px;
+    /* para usar absolute el contenedor debe tener position:relative */
+}
+.caja4{
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(255, 251, 0);
+    /* position: fixed;
+    left: 100px; */
+}
+img{
+    position: fixed;
+    top: 5px;
+}
